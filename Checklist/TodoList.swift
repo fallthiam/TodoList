@@ -11,6 +11,7 @@ import Foundation
 class TodoList {
     
     var todos: [ChecklistItem] = []
+    var titles: [String] = ["train the cat", "laundry","grocery shop","workout","pay rent","pay bill"]
     
     init() {
         let row0Item = ChecklistItem()
@@ -32,5 +33,18 @@ class TodoList {
         todos.append(row4Item)
     }
     
+    func newTodo() -> ChecklistItem {
+        let item = ChecklistItem()
+        item.text = getRandomTitle()
+        item.checked = false
+        todos.append(item)
+        return item
+    }
+    
+    private func getRandomTitle() -> String {
+        let randomNumber = Int(arc4random_uniform(UInt32(titles.count)))
+        return titles[randomNumber]
+    }
+
     
 }

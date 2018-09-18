@@ -14,6 +14,7 @@
 		7B5317CB2146DB490051A1A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5317C92146DB490051A1A1 /* LaunchScreen.storyboard */; };
 		7B5317D521483AC50051A1A1 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5317D421483AC50051A1A1 /* ChecklistItem.swift */; };
 		7B5317D7214AB3B80051A1A1 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5317D6214AB3B80051A1A1 /* TodoList.swift */; };
+		7B5317D9214FFF290051A1A1 /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5317D8214FFF290051A1A1 /* AddItemTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7B5317CC2146DB490051A1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B5317D421483AC50051A1A1 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		7B5317D6214AB3B80051A1A1 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		7B5317D8214FFF290051A1A1 /* AddItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				7B5317CC2146DB490051A1A1 /* Info.plist */,
 				7B5317D421483AC50051A1A1 /* ChecklistItem.swift */,
 				7B5317D6214AB3B80051A1A1 /* TodoList.swift */,
+				7B5317D8214FFF290051A1A1 /* AddItemTableViewController.swift */,
 			);
 			path = Checklist;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B5317D521483AC50051A1A1 /* ChecklistItem.swift in Sources */,
+				7B5317D9214FFF290051A1A1 /* AddItemTableViewController.swift in Sources */,
 				7B5317C32146DB450051A1A1 /* ChecklistViewController.swift in Sources */,
 				7B5317C12146DB450051A1A1 /* AppDelegate.swift in Sources */,
 				7B5317D7214AB3B80051A1A1 /* TodoList.swift in Sources */,

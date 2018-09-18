@@ -12,5 +12,9 @@ class ChecklistItem {
     
     var text: String = ""
     var checked: Bool = false
+    
+    func toggleChecked() {
+        checked = !checked
+    }
 }
 
